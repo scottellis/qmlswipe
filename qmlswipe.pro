@@ -1,4 +1,4 @@
-QT += quick
+QT += quickcontrols2
 
 CONFIG += c++11
 

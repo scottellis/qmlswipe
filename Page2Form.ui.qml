@@ -2,10 +2,6 @@ import QtQuick 2.12
 import QtQuick.Controls 2.5
 
 Page {
-    width: 800
-    height: 480
-    font.pixelSize: Qt.application.font.pixelSize
-
     header: Label {
         text: qsTr("Page 2")
         font.pixelSize: Qt.application.font.pixelSize * 2
@@ -15,6 +11,5 @@ Page {
     Label {
         text: qsTr("You are on Page 2.")
         anchors.centerIn: parent
-        font.pixelSize: Qt.application.font.pixelSize
     }
 }
